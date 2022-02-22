@@ -6,7 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainAddsComponent } from './main-adds/main-adds.component';
 // import { PlayButton } from './playng-section/playng-section.component.spec';
 import { CashbackSectionComponent } from './cashback-section/cashback-section.component';
-import { PlayButtonComponent } from './playng-section/play-button.component';
+import { PlayButtonComponent } from './play-button/play-button.component';
 
 @NgModule({
   declarations: [
