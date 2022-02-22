@@ -1,0 +1,29 @@
+.header {
+    position: relative;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ball {
+    width: 150px;
+    position: absolute;
+    left: -10px;
+    top: -80px;
+}
+
+.ball img {
+    width: 100%;
+}
+
+.dollar {
+    width: 200px;
+    position: absolute;
+    right: -10px;
+    top: -80px;
+}
+
+.dollar img {
+    width: 100%;
+}
