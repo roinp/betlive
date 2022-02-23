@@ -1,0 +1,147 @@
+.offer-div {
+    position: relative;
+    max-width: 800px;
+    height: 380px;
+    margin: auto;
+    background-color: rgba(106, 28, 231, 0.144);
+}
+
+.offer-div img {
+    position: absolute;
+}
+
+.maniacs {
+    max-width:965px;
+    top: -28px;
+    left: -80px;
+}
+
+.cristal {
+    top: -50px;
+    right: 20px;
+}
+
+.cristal-2 {
+    left: -35%;
+    top: 27%;
+}
+
+.offer-info {
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+.offer-info span {
+    color: orange;
+    font-weight: bold;
+}
+
+.offer-info p {
+    font-size: 18px;
+}
+
+.spin-everyday {
+    display: flex;
+    justify-content: space-around;
+}
+
+.spin-count{
+    background-color: white;
+    padding: 5px 10px;
+    width: 180px;
+    height: 160px;
+    text-align: center;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    box-sizing: border-box;
+}
+
+.spin-count h3 {
+    padding: 5px 12px;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(142, 53, 224);
+    font-size: 17px;
+    background-color: rgba(163, 138, 204, 0.26);
+
+}
+
+.spin-count p {
+    font-size: 40px;
+    margin-top: 25px;
+    color: rgb(134, 36, 226);
+}
+
+.line {
+    width: 35px;
+    height: 5px;
+    margin-left: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.cashback-percent {
+    background-color: rgba(75, 25, 168, 0.39);
+    width: 180px;
+    height: 160px;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+
+.cashback-percent h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.cashback-percent p {
+    background-color:  rgba(134, 36, 226, 0.096);
+    padding: 10px 5px;
+
+}
+
+.lines {
+    margin-top: 50px;
+}
+
+.extra-info {
+    max-width: 900px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: rgb(52 52 108 / 8%);
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    color: white;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+.extra-info p {
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+.notice {
+    width: 150px;
+    height: 180px;
+    background-color: rgb(12 12 37 / 65%);
+    display: inline-block;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+    margin:auto;
+    font-size: 21px;
+    position: relative;
+    top: 75px;
+}
+
