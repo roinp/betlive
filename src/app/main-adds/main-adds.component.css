@@ -1,5 +1,5 @@
 .cachback-add {
-    width: 450px;
+    max-width: 450px;
     margin: 15px auto;
 }
 
@@ -22,7 +22,10 @@
     .right-after::before {
         display: none;
     }
-    
+    .cachback-add  {
+        width: 250px;
+        margin: auto;
+    }
 }
 
 .offers {
