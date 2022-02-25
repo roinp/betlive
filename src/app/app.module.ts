@@ -8,6 +8,7 @@ import { MainAddsComponent } from './main-adds/main-adds.component';
 import { CashbackSectionComponent } from './cashback-section/cashback-section.component';
 import { PlayButtonComponent } from './play-button/play-button.component';
 import { OfferBoxComponent } from './offer-box/offer-box.component';
+import { FooterFaqComponent } from './footer-faq/footer-faq.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { OfferBoxComponent } from './offer-box/offer-box.component';
     PlayButtonComponent,
     CashbackSectionComponent,
     OfferBoxComponent,
+    FooterFaqComponent,
 
   ],
   imports: [
