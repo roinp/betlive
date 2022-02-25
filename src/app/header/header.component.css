@@ -13,6 +13,8 @@
     top: -80px;
 }
 
+
+
 .ball img {
     width: 100%;
 }
@@ -26,4 +28,15 @@
 
 .dollar img {
     width: 100%;
+}
+
+@media  (max-width:960px) {
+    .ball {
+        width:70px;
+        top: -20px;
+    }
+    .dollar {
+        width: 80px;
+        top: -10px;
+    }
 }
