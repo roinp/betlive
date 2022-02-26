@@ -1,0 +1,141 @@
+.cashback-box {
+  position: absolute;
+  width: 220px;
+  height: 180px;
+  background-color: rgba(39, 39, 214, 0.336);
+  padding: 0px 8px;
+  box-sizing: border-box;
+  top: 100px;
+}
+
+.date-box {
+    position: relative;
+    top: -19px;
+    text-align: center;
+}
+
+.cashback-box h2 {
+    width: 100px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.cashback-box p {
+    position: relative;
+    top: 36%;
+    left: 28%;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(30 16 58);
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 5px 10px;
+}
+
+.box {
+  position: relative;
+}
+
+.cashback-status {
+width: 160px;
+height: 12px;
+background-color: rgb(46, 22, 90);
+border-radius: 10px;
+padding: 2px 3px;
+box-sizing: border-box;
+border: 1px solid rgba(111, 111, 230, 0.747);
+}
+
+.cashback-status div {
+  width: 100px;
+  height: 6px;
+  background-color: rgb(14, 241, 14);
+  border-radius: 10px;
+}
+
+.cashback-money {
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 40px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cashback-money span {
+font-size: 10px;
+}
+
+.accumulated-money {
+  position: absolute;
+  top: -22px;
+  right: 75px;
+  padding: 0 5px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  color: black
+}
+
+
+
+.accumulated-money::after {
+  content: '';
+  position: absolute;
+  right: 5px;
+  bottom: 1px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #e8e8e8;
+  transform: rotate(108deg);
+  z-index: -1;
+}
+
+.cashback-box img {
+  width: 35px;
+  height: 31px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: absolute;
+  left: 66%;
+  top: 54%;
+}
+
+.green-circle {
+  position: relative;
+  background-color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  background-color: rgb(19, 196, 19);
+}
+
+.tick {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 8px;
+  height: 11px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  transform: rotate(215deg);
+
+}
+.box {
+  position: relative;
+}
+
