@@ -6,7 +6,6 @@
 .cashback-section {
     position: relative;
     height: 400px;
-    max-width: 900px;
     width: calc(100vw - 200px);
     margin: auto;
 }
@@ -51,8 +50,7 @@
 .right-container {
     height: 400px;
     width: 120px;
-    right: 0;
-    top: 0;
+    right: 30%;
     background-image: url('../../assets/images/right-slide.png');
     background-repeat: no-repeat;
     background-position: center top;
