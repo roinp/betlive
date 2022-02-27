@@ -56,7 +56,7 @@
     height: 400px;
     width: 120px;
     right: -1%;
-    background-image: url('../../assets/images/right-slide.png');
+    background-image: url('../../assets/images/side22.png');
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -64,20 +64,24 @@
 .moving-area {
     height: 100%;
     left: 20px;
-    right: 20px;
+    right: 10px;
     top: 0;
     z-index: 1;
     overflow: hidden;
 }
 
 
-.flex {
+/* .flex {
     position: absolute;
     top: 70px;
     left:20%;
     display: flex;
     gap: 50px;
 
+} */
+
+.hidden {
+    display: hidden;
 }
 
 .right-click {
@@ -85,8 +89,9 @@
     height: 50px;
     background-color: white;
     border-radius: 4px;
-    margin-top: 90px;
     cursor: pointer;
+    right: 25%;
+    top: 40%;
 }
 
 .right-arrow {
@@ -104,8 +109,9 @@
     height: 50px;
     background-color: white;
     border-radius: 4px;
-    margin-top: 90px;
     cursor: pointer;
+    top: 40%;
+    left: 25%;
 }
 
 .left-arrow {
@@ -126,84 +132,3 @@
 
 
 
-.green-circle {
-    position: relative;
-    background-color: white;
-    width: 28px;
-    height: 28px;
-    border-radius: 100%;
-    background-color: rgb(19, 196, 19);
-}
-
-.tick {
-    position: absolute;
-    top: 6px;
-    left: 8px;
-    width: 8px;
-    height: 11px;
-    border-top: 3px solid white;
-    border-left: 3px solid white;
-    transform: rotate(215deg);
-
-}
-.box {
-    position: relative;
-}
-
-.cashback-status {
-  width: 160px;
-  height: 12px;
-  background-color: rgb(46, 22, 90);
-  border-radius: 10px;
-  padding: 2px 3px;
-  box-sizing: border-box;
-  border: 1px solid rgba(111, 111, 230, 0.747);
-}
-
-.cashback-status div {
-    width: 100px;
-    height: 6px;
-    background-color: rgb(14, 241, 14);
-    border-radius: 10px;
-}
-
-.cashback-money {
-    position: relative;
-    box-sizing: border-box;
-    margin-top: 40px;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.cashback-money span {
-  font-size: 10px;
-}
-
-.accumulated-money {
-    position: absolute;
-    top: -22px;
-    right: 75px;
-    padding: 0 5px;
-    background-color: white;
-    text-align: center;
-    border-radius: 10px;
-    color: black
-}
-
-
-
-.accumulated-money::after {
-    content: '';
-    position: absolute;
-    right: 5px;
-    bottom: 1px;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #e8e8e8;
-    transform: rotate(108deg);
-    z-index: -1;
-}

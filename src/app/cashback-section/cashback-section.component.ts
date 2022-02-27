@@ -7,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CashbackSectionComponent implements OnInit {
 
-
+  
   ngOnInit(): void {
   }
-
+  positions = [
+    '-330px',
+    '-100px',
+    'calc(50% - 110px)',
+    'calc(50% + 300px)',
+    '1000px',
+  ]
 }

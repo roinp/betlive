@@ -10,6 +10,7 @@ export class CashbackBoxComponent implements OnInit {
   @Input() left: string;
 
   constructor() {
+    
   }
 
   ngOnInit(): void {

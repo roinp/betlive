@@ -1,13 +1,20 @@
 <div class="cashback-section">
-  <app-cashback-box [left]="0"></app-cashback-box>
-  <app-cashback-box [left]="'calc(50% - 110px)'"></app-cashback-box>
-  <app-cashback-box [left]="'calc(100% - 220px)'"></app-cashback-box>
-   <div class="left-container"></div>
-   <div class="moving-area">
-        <div class="right-container"></div>
-      </div>
-      <div class="ped">
-          <img src="../../assets/images/ped copy.png" alt="ped">
-      </div>
-</div>
-
+    <div class="left-container"></div>
+    <div class="left-click">
+        <div class="left-arrow"></div>
+    </div>
+    <div class="moving-area">
+        <app-cashback-box [left]="positions[0]"></app-cashback-box>
+        <app-cashback-box [left]="positions[1]"></app-cashback-box>
+        <app-cashback-box [left]="positions[2]"></app-cashback-box>
+        <app-cashback-box [left]="positions[3]"></app-cashback-box>
+        <app-cashback-box [left]="positions[4]"></app-cashback-box>
+    </div>
+    <div class="right-click">
+        <div class="right-arrow"></div>
+    </div>
+    <div class="right-container"></div>
+    <div class="ped">
+        <img src="../../assets/images/ped copy.png" alt="ped">
+    </div>
+</div>    
