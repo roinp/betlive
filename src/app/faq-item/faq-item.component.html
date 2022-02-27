@@ -1,0 +1,11 @@
+<div class="faq-item">
+  <div class="question" (click)="clickHandler()">
+    <p>{{item.question}}</p>
+    <div class="circle-button">
+      <div [ngClass]="item.show ? '' : 'closed'"></div>
+    </div>
+  </div>
+  <div class="answer" [ngClass]="item.show ? '' : 'hidden'">
+    <p>{{item.answer}}</p>
+  </div>
+</div>

@@ -10,6 +10,7 @@ import { PlayButtonComponent } from './play-button/play-button.component';
 import { OfferBoxComponent } from './offer-box/offer-box.component';
 import { FooterFaqComponent } from './footer-faq/footer-faq.component';
 import { CashbackBoxComponent } from './cashback-box/cashback-box.component';
+import { FaqItemComponent } from './faq-item/faq-item.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { CashbackBoxComponent } from './cashback-box/cashback-box.component';
     OfferBoxComponent,
     FooterFaqComponent,
     CashbackBoxComponent,
+    FaqItemComponent,
 
   ],
   imports: [
