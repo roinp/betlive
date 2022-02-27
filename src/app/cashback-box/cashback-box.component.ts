@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { SliderBoxData } from '../SliderBox';
 
 @Component({
   selector: 'app-cashback-box',
@@ -7,10 +8,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CashbackBoxComponent implements OnInit {
   // left='calc(50% - 110px)';
-  @Input() left: string;
+  @Input() data: SliderBoxData;
 
   constructor() {
-    
+
   }
 
   ngOnInit(): void {

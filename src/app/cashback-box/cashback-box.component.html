@@ -1,7 +1,11 @@
-<div class="cashback-box" [style.left]="left">
-  <div class="date-box"><h2>14 მაისი</h2></div>
+<div class="cashback-box"
+  [style.left]="data.position"
+  [style.transform]="'scale(' + data.scale + ')'"
+  [style.transition]="data.transition ? 'all 0.5s' : 'none'"
+  >
+  <div class="date-box"><h2>{{data.date}}</h2></div>
     <div class="relative" >
-      <p>14%</p>
+      <p>{{data.percent}}%</p>
       <div>
         <div class="checkbox">
           <div class="green-circle">
@@ -13,8 +17,10 @@
     </div>
     <div class="cashback-money">
         <span>0</span>
-        <div class="cashback-status"><div></div></div>
+        <div class="cashback-status">
+          <div class="filled-area" [style]="{width: data.points/250 * 100 + '%'}"></div>
+          <div class="accumulated-money" [style]="{left: data.points/250 * 100 + '%'}">{{data.points}}</div>
+        </div>
         <span>250 ლ</span>
-        <div class="accumulated-money">35</div>
     </div>
 </div>
