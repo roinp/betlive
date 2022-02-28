@@ -12,7 +12,7 @@ export class CashbackSectionComponent implements OnInit {
       date: '1 მაისი',
       percent: 14,
       points: 35,
-      position: '-330px',
+      position: '-37%',
       scale: 0.8,
       transition: true,
     },
@@ -20,7 +20,7 @@ export class CashbackSectionComponent implements OnInit {
       date: '2 მაისი',
       percent: 14,
       points: 35,
-      position: '-100px',
+      position: '-8%',
       scale: 0.8,
       transition: true,
     },
@@ -28,7 +28,7 @@ export class CashbackSectionComponent implements OnInit {
       date: '3 მაისი',
       percent: 14,
       points: 135,
-      position: 'calc(50% - 110px)',
+      position: '37%',
       scale: 1,
       transition: true,
     },
@@ -36,7 +36,7 @@ export class CashbackSectionComponent implements OnInit {
       date: '4 მაისი',
       percent: 14,
       points: 35,
-      position: 'calc(50% + 300px)',
+      position: '84%',
       scale: 0.8,
       transition: true,
     },
@@ -62,10 +62,10 @@ export class CashbackSectionComponent implements OnInit {
       }
       this.boxes[this.boxes.length - 1].position = firstPosition;
       requestAnimationFrame(() => {
-        this.boxes.find(box => box.position === '-330px').transition = true;
+        this.boxes.find(box => box.position === '-37%').transition = true;
       })
     } else {
-      this.boxes.find(box => box.position === '-330px').transition = false;
+      this.boxes.find(box => box.position === '-37%').transition = false;
       let lastPosition = this.boxes[this.boxes.length - 1].position;
       for(let i = this.boxes.length - 1; i > 0; i--) {
         this.boxes[i].position = this.boxes[i - 1].position;
@@ -78,7 +78,7 @@ export class CashbackSectionComponent implements OnInit {
 
 
     this.boxes.forEach(box => {
-      if(box.position === 'calc(50% - 110px)') {
+      if(box.position === '37%') {
         box.scale = 1;
       } else {
         box.scale = 0.8;

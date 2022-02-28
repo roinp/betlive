@@ -85,51 +85,60 @@
 }
 
 .right-click {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     background-color: white;
     border-radius: 4px;
     cursor: pointer;
-    right: 25%;
+    right: 30%;
     top: 40%;
     z-index: 2;
 }
 
 .right-arrow {
-    width: 20px;
-    height: 20px;
+    width: 13px;
+    height: 13px;
     border-top: 2px solid black;
     border-right: 2px solid black;
     transform: rotate(52deg);
-    margin-top: 12px;
+    margin-top: 10px;
     margin-left: 8px;
 
 }
 .left-click {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     background-color: white;
     border-radius: 4px;
     cursor: pointer;
     top: 40%;
-    left: 25%;
+    left: 30%;
     z-index: 2;
 }
 
 .left-arrow {
-    width: 20px;
-    height: 20px;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    transform: rotate(220deg);
-    margin-top: 12px;
-    margin-left: 20px;
+  width: 13px;
+  height: 13px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  transform: rotate(220deg);
+  margin-top: 10px;
+  margin-left: 14px;
 }
 
 .ped {
     position: absolute;
     bottom: -70px;
     left: -40px;
+}
+
+@media (max-width:990px) {
+  .ped  img{
+    width: 100vw;
+  }
+  .ped {
+    bottom:-50px
+    }
 }
 
 

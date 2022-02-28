@@ -4,6 +4,7 @@
     height: 380px;
     margin: auto;
     background-color: rgba(106, 28, 231, 0.144);
+    padding: 0 12px
 }
 
 .offer-div img {
@@ -22,7 +23,8 @@
 }
 
 .cristal-2 {
-    left: -35%;
+    width:200px;
+    left: -30%;
     top: 27%;
 }
 
@@ -143,5 +145,59 @@
     font-size: 21px;
     position: relative;
     top: 75px;
+}
+
+@media (max-width:990px) {
+  .offer {
+    width:500px;
+    margin:auto;
+    padding:0 10px
+  }
+  .maniacs {
+    max-width:650px;
+  }
+  .cristal-2 {
+    width:110px
+  }
+  .extra-offer {
+    font-size:14px
+  }
+}
+
+@media (max-width:660px) {
+    .offer-div {
+      height:auto;
+      padding: 0 12px 10px;
+    }
+
+    .offer {
+      width:350px;
+      margin:auto
+    }
+    .maniacs {
+      max-width:420px;
+      left:-40px;
+  }
+    .spin-count {
+      width: 120px;
+      height: 110px;
+    }
+    .spin-count h3 {
+      font-size:11px;
+    }
+    .spin-count p {
+      font-size:25px;
+    }
+    .cashback-percent {
+      width: 120px;
+      height: 110px;
+    }
+
+    .cashback-percent h3 {
+      font-size:20px
+    }
+    .extra-offer {
+      font-size:11px
+    }
 }
 

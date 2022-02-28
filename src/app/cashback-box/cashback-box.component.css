@@ -142,3 +142,52 @@ font-size: 10px;
   position: relative;
 }
 
+@media (max-width:768px){
+  .cashback-box {
+    width: 130px;
+    height: 140px;
+  }
+  .date-box h2 {
+    font-size:14px;
+    width:50px;
+    margin: 10px auto;
+    padding: 2px 15px;
+  }
+  .relative p {
+    width: 40px;
+    font-size: 16px;
+    height: 20px;
+    padding: 5px 15px;
+    left: 22%;
+  }
+  .cashback-money span {
+    font-size: 10px;
+  }
+  .cashback-status {
+    width: 80px
+  }
+  .acumulated-money {
+    font-size: 13px;
+    top: -22px;
+  }
+  .green-circle {
+    width: 20px;
+    height: 20px;
+  }
+  .tick {
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+  }
+  .checkbox {
+    gap:7px;
+    left: 62%;
+    top: 49%;
+  }
+  .checkbox img{
+    width: 25px;
+    height: 22px;
+  }
+}
+
